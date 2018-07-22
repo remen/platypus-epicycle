@@ -6,11 +6,12 @@
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "ts-loader": "^4.4.2",
-    "typescript": "^2.9.2"
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
