@@ -1,0 +1,74 @@
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.applet-container {
+    margin: auto;
+}
+
+.sim-container {
+    float: left;
+}
+
+.slate {
+    border: 1px solid #000;
+    display: block;
+}
+
+.grid-controls, .epicycles-controls {
+    width: 190px;
+    display: block;
+    float: left;
+    height: 100%;
+    margin: 0 4px;
+    margin-left: -95px;
+}
+
+.simulator-controls {
+    clear: both;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.slider {
+    display: block;
+    height: 30px;
+    position: relative;
+    margin: 0 10px;
+}
+.slider>.slider-bar {
+    border-bottom: 1px solid #AAA;
+    position: absolute;
+    top: 14px;
+    height: 1px;
+    width: 100%;
+}
+.slider>.slider-button {
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    margin-left: -11px;
+    border: 1px solid #666;
+    border-radius: 2px;
+    background-color: #999;
+    color: #333;
+    position: absolute;
+    cursor: default;
+    left: 0%;
+}
+#share-pane {
+    display: none;
+}
