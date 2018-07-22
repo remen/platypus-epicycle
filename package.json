@@ -1,0 +1,27 @@
+{
+  "name": "platypus-epicycle",
+  "version": "1.0.0",
+  "description": "Copy of https://github.com/brettcvz/epicycles",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remen/platypus-epicycle.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remen/platypus-epicycle/issues"
+  },
+  "homepage": "https://github.com/remen/platypus-epicycle#readme"
+}
